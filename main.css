@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    width: 90%;
+    margin-left: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+nav a{
+    font-size: 25px;
+}
+.logo {
+    font-size: 30px;
+}
+nav h1{
+    display: inline;
+
+}
+header nav a {
+    color: #f0a500;
+    padding: 20px;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    margin-bottom: 10rem;
+    animation: fadeIn 3s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.home-img img{
+    width: 20rem;
+    border-radius: 360px;
+    padding: 80px;
+}
+.home-content h1{
+    font-size: 30px;
+
+}
+.home-content p {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    color: #000000;
+}
+.btn {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 14px;
+    transition: transform .3s ease-in-out;
+}
+.btn :hover{
+    transform: scale(1.1);
+}
+.btn a{
+    color: #000000;
+}
+.home-content a {
+    padding: 5px;
+}
+span {
+    color:brown;
+    font-weight: bold;
+}
+.about{
+    color: #ffffff;
+    background-color: brown;
+    padding: 50px;
+    font-size: 20px; 
+    display: flex;
+   
+}
+.about h1 {
+    display: flex;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 520px) {
+    
+    nav a{
+       font-size: 15px;
+       padding: 0;
+       width: 50%;
+    }
+    header {
+        margin: 15px;
+        padding: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header nav a{
+        padding: 8px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    nav h1 a{
+        font-size: 15px;
+        padding: 8px;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        margin-right: 10px; 
+        margin-top: 10px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+
+    }
+    .home-content h1{
+        font-size: 15px;
+    }
+    .home-img img{
+        width: 100px;
+        padding: 60px;
+    }
+
+    .home-content {
+        font-size: 10px;
+        
+    }
+
+    .btn {
+        border-radius: 20px;
+        font-size: 10px;
+        padding: 7px;
+    }
+    .about{
+        font-size: 12px;
+        
+    }
+    footer{
+        font-size: 7px;
+    }
+}
+@media (max-width:390px){
+
+    .logo{
+        font-size: 12px;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    nav h1 a{
+        font-size: 12px;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        margin-right: 10px; 
+        margin-top: 10px;
+        padding-right: 30px;
+        font-size: 12px;
+
+    }
+    .home-img img{
+        width: 90px;
+        padding: 40px;
+    }
+}
